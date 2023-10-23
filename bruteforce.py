@@ -70,7 +70,7 @@ def OBF():
         if balance > 0:
             with open('found.txt', 'a') as result:
                 result.write(f'{pk.to_wif()}')
-            print(f'Instance: 1 - Added address to found.txt')
+            print('Instance: 1 - Added address to found.txt')
         print('Sleeping for 10 seconds...')
         sleep(10)
 
